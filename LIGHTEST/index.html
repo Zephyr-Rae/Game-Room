@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>M2 Q2 - GALLINERO</title>
+
+    <style>
+      body {
+        margin: 0;
+      }
+
+      .instructions {
+        position: fixed;
+        top: 12px;
+        left: 12px;
+        width: 500px;
+        height: auto;
+        z-index: 1;
+        pointer-events: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <img class="instructions" src="./images/instruction.png" alt="Movement controls: W forward, A left, S backward, D right, hold Shift to sprint">
+
+    <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js"
+      }
+    }
+    </script>
+
+    <script type="module" src="./scripts/main.js"></script>
+
+  </body>
+
+</html>
